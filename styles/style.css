@@ -1,0 +1,50 @@
+:root {
+    --orange: #ffcb05;
+    --blue-light: #2a75bb;
+    --blue-dark: #3c5aa6;
+    --red: #FB1B1B;
+}
+
+header {
+    background-color: var(--blue-dark);
+    position: sticky;
+    top: 0;
+    height: 80px;
+    width: 100%;
+}
+
+.logo-pokemon {
+    width: 100px;
+
+}
+
+.card:hover {
+    background-color: var(--orange);
+}
+
+.pokemon-img img {
+    width: 100px;
+    height: 100px;
+}
+
+.pokemon-card .card {
+    width: 100%;
+    height: fit-content;
+}
+
+.pokemon-card-aside {
+    height: 100% !important;
+    width: 100%;
+}
+
+.pokemon-card-aside img {
+    width: 100px;
+}
+
+body {
+    background-color: var(--blue-light) !important;
+}
+
+body .container {
+    background-color: var(--red);
+}
